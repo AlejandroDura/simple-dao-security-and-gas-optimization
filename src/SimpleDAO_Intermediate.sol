@@ -16,7 +16,15 @@ interface IGovernanceToken {
     ) external view returns (uint256);
 }
 
-contract SimpleDAO_Final is ReentrancyGuard {
+/**
+ * @title SimpleDAO_Intermediate.
+ * @dev This is the intermediate version between V1 and V2. The intermediate version contains all the V2 changes
+ * and implementations inside the same contract. You will see that is a little bit chaotic. This is one of the
+ * main reasons because we decided to split and separate responsabilities in various abstract contracts.
+ * It is not necessary to check this contract. It is an example of how it looks if we stick all the new changes inside
+ * the same contract. This intermediate version was not used or tested.
+ */
+contract SimpleDAO_Intermediate is ReentrancyGuard {
     struct Proposal {
         address proposer; // 20 bytes
         uint64 deadline; // 8 bytes
