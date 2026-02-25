@@ -54,7 +54,7 @@ Some gas improvements were made:
 
 ## 🚀 How to Run
 
-### Install Foundry:
+### Install Foundry
 
 To install Foundry:
 
@@ -82,13 +82,13 @@ Then cd to the project folder:
 cd simple-dao-security-and-gas-optimization/
 ```
 
-### Build the project:
+### Build the project
 
 ```bash
 forge build
 ```
 
-### Run tests:
+### Run tests
 
 ```bash
 forge test
