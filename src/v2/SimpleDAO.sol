@@ -6,9 +6,10 @@ import {WhitelistAccess} from "src/v2/WhitelistAccess.sol";
 import {QuorumManager} from "src/v2/QuorumManager.sol";
 
 /**
- * @title SimpleDAO
- * @dev This is the final governor DAO contract. This contract contains all the governance logic inherited
- * from its parents. First, we have GovernorBase where all the governance core logic is placed, and then
+ * @title SimpleDAO (V2)
+ * @dev This is the final governor DAO contract. It represents the V2 version, which is secured and optimized.
+ * This contract contains all the governance logic inherited from its parents.
+ * First, we have GovernorBase where all the governance core logic is placed, and then
  * the governance policies: a whitelist placed in WhitelistAccess contract and quorum placed in QuorumManager contract:
  * The WhitelistAccess consist of a whitelist to allow or ban proposal targets.
  * The QuorumManager checks wheter a proposal can be executed based on the quorum.

@@ -9,6 +9,10 @@ interface IGovernanceToken {
     ) external view returns (uint256);
 }
 
+/**
+ * @title SimpleDAO_Original (V1).
+ * @dev This is the original, vulnerable and not optimized SimpleDAO version. It represents the V1 version.
+ */
 contract SimpleDAO_Original {
     struct Proposal {
         address proposer; // 20 bytes
